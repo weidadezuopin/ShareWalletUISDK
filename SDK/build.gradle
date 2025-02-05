@@ -61,7 +61,8 @@ afterEvaluate {
     publishing {
         publications {
             release(MavenPublication) {
-                groupId = 'com.github.PeakPerformanceTechnology'
+                // groupId = 'com.github.PeakPerformanceTechnology'
+                groupId = 'com.github.weidadezuopin'
                 artifactId = 'ShareWalletUISDK'
                 version = this.version
 
@@ -128,7 +129,8 @@ afterEvaluate {
 
 dependencies {
 //    implementation files('/Users/peakperformance/Downloads/WalletSdkCore.aar')
-    implementation 'com.github.PeakPerformanceTechnology:SharedWalletCoreSDK:V1.0.0@aar'
+    // implementation 'com.github.PeakPerformanceTechnology:SharedWalletCoreSDK:V1.0.0@aar'
+    implementation 'com.github.weidadezuopin:SharedWalletCoreSDK:V1.0.0@aar'
 
     implementation 'androidx.core:core-ktx:1.9.0'
     implementation 'androidx.appcompat:appcompat:1.6.1'
